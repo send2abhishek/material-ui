@@ -9,6 +9,9 @@ const useStyles = makeStyles({
     fontSize: "90px",
     color: "red",
   },
+  buttonStyle: {
+    color: "green",
+  },
 });
 
 function App() {
@@ -23,7 +26,11 @@ function App() {
       >
         Abhishek Aryan
       </Typography>
-      <Button variant="outlined" color="primary">
+      <Button
+        variant="outlined"
+        color="primary"
+        className={classes.buttonStyle}
+      >
         This is our first Button
       </Button>
     </div>
