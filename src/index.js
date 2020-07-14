@@ -1,15 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+// import "./index.css";
 // import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { ThemeProvider } from "@material-ui/core/styles";
-import DesignPage from "./components/designPage";
+// import DesignPage from "./components/designPage";
+// import BasicStyle from "./components/BasicStyle";
+// import GridDesign from "./components/GridDesign";
+import PokemonPage from "./components/Pokemon/pokemonPage";
 import theme from "./theme";
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <DesignPage />
+      <PokemonPage />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

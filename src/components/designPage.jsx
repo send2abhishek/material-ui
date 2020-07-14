@@ -13,9 +13,10 @@ class DesignPage extends Component {
         <Grid item>
           <Header />
         </Grid>
+        {/* spacing can only be used in container */}
         <Grid item container>
           <Grid item xs={false} sm={2} />
-          <Grid item xs={12} sm={8} style={{ marginTop: "10px" }}>
+          <Grid item xs={12} sm={8}>
             <Content />
           </Grid>
           <Grid item xs={false} sm={2} />
